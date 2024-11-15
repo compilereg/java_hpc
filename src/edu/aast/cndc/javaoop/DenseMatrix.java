@@ -76,7 +76,6 @@ public class DenseMatrix {
 		DenseMatrix outm;
 		outm=new DenseMatrix(this.rows,this.cols);
 		outm.InitMatrix(0);
-		
 		startTime=Calendar.getInstance().getTime();
 		for(i=0;i<this.rows;i++) 
 			for(j=0;j<this.cols;j++)
